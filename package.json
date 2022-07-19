@@ -9,7 +9,6 @@
     "compression": "^1.7.2",
     "cors": "^2.8.5",
     "express": "^4.16.3",
-    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^5.0.7",
@@ -18,11 +17,10 @@
     "redux": "^4.0.0",
     "serve-favicon": "^2.5.0",
     "socket.io": "^2.4.0",
-    "socket.io-client": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "client": "node index.js",
+    "client": "node client.js",
     "server": "node server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
